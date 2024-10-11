@@ -9,9 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@apollo/client": "^3.11.8",
     "@iconify/vue": "^4.1.2",
     "axios": "^1.7.7",
     "firebase": "^10.13.2",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
     "vue-daisyui-theme-manager": "^0.0.29",

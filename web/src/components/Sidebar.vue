@@ -53,7 +53,9 @@ const toggle = useSidebarToggle();
           + <span class="text-[22px]">Collection</span>
         </p>
         <p class="text-[22px] font-semibold">REST API</p>
-        <p class="text-[22px] font-semibold">GQL API</p>
+        <RouterLink to="/app/gql"
+          ><p class="text-[22px] font-semibold">GQL API</p></RouterLink
+        >
         <button><p class="text-[22px] font-semibold">Bookmarks</p></button>
       </div>
 
