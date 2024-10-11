@@ -28,12 +28,12 @@ const router = createRouter({
       component: () => import('@/views/app/AppIndex.vue'),
       meta: { layout: AppLayout  }
     },
-    {
-      path: '/app/gql',
-      name: 'gql',
-      component: () => import('@/views/app/GraphQlClient/GqlIndex.vue'),
-      meta: { layout: AppLayout  }
-    }
+    // {
+    //   path: '/app/gql',
+    //   name: 'gql',
+    //   component: () => import('@/views/app/GraphQlClient/GqlIndex.vue'),
+    //   meta: { layout: AppLayout  }
+    // }
     
   ]
     

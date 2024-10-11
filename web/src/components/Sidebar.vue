@@ -22,20 +22,20 @@ const toggle = useSidebarToggle();
         <button @click="toggle.toggle"><p class="text-[30px] font-bold">>></p></button>
       </div>
       <div class="flex flex-col justify-center items-center gap-10 w-full">
-        <p class="text-[40px] font-bold">+</p>
+        <p class="text-[40px] font-bold text-gray-500">+</p>
         <RouterLink to="/app/"> <p class="text-[25px] font-bold">REST</p></RouterLink>
-        <p class="text-[25px] font-bold">GQL</p>
-        <button><Bookmark /></button>
+        <p class="text-[25px] font-bold text-gray-500">GQL</p>
+        <!-- <button><Bookmark /></button> -->
       </div>
 
       <div class="h-[200px] border"></div>
 
       <div class="flex flex-col items-center w-full">
-        <div class="avatar placeholder">
+        <!-- <div class="avatar placeholder">
           <div class="bg-neutral text-neutral-content w-[50px] rounded-full">
             <span class="text-3xl">D</span>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -49,19 +49,19 @@ const toggle = useSidebarToggle();
         <button @click="toggle.toggle"><p class="text-[30px] font-bold"><<</p></button>
       </div>
       <div class="flex flex-col justify-center items-start gap-10 w-full p-3">
-        <p class="text-[22px] font-semibold">
+        <p class="text-[22px] font-semibold text-gray-500">
           + <span class="text-[22px]">Collection</span>
         </p>
         <p class="text-[22px] font-semibold">REST API</p>
         <RouterLink to="/app/gql"
-          ><p class="text-[22px] font-semibold">GQL API</p></RouterLink
+          ><p class="text-[22px] font-semibold text-gray-500">GQL API</p></RouterLink
         >
-        <button><p class="text-[22px] font-semibold">Bookmarks</p></button>
+        <button><p class="text-[22px] font-semibold text-gray-500">Bookmarks</p></button>
       </div>
 
       <div class="h-[200px] border"></div>
 
-      <div class="flex items-start w-full">
+      <!-- <div class="flex items-start w-full">
         <div class="avatar placeholder flex items-center gap-3">
           <div class="bg-neutral text-neutral-content w-[50px] h-[50px] rounded-full">
             <span class="text-3xl">D</span>
@@ -71,7 +71,7 @@ const toggle = useSidebarToggle();
             <p>SignOut</p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
