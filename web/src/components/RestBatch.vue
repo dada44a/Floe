@@ -1,5 +1,4 @@
 <template>
-  {{ LinkWithAuth }}
   <div class="flex flex-col gap-3">
     <div class="flex gap-2 items-center">
       <!-- Select for HTTP methods -->
@@ -11,7 +10,7 @@
 
       <!-- Button to send request -->
       <button class="btn btn-neutral w-[81vw] bg-black hover:bg-black" @click="send">
-        <span class="text-white"> Send Request</span>
+        <span class="text-white">Send Request</span>
       </button>
     </div>
 
@@ -44,7 +43,6 @@
               />
             </div>
           </div>
-          {{ authDataArray }}
           <div id="auth" class="h-[680px]" v-if="dataRackState === 'auth'">
             <button class="font-bold text-[30px]" @click="addAuthData">+</button>
             <div id="inputs" class="h-[70px] pt-1">
