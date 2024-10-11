@@ -15,7 +15,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
 1. **Fork the Repository:** Click the "Fork" button on the top right corner of the repository page to create a personal copy of the project.
 2. **Clone Your Fork:** Clone your forked repository to your local machine using:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   https://github.com/dada44a/Floe.git
    ```
 3. **Install Dependencies:** Navigate to the project directory and install the required dependencies:
    ```bash
